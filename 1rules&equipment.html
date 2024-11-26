@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>My First Bootstrap Page</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+<link href="css/main.css" rel="stylesheet">
+<body>
+
+<!-- Header for Each Page -->
+<div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+      <!-- Logo for Brand -->
+      <a class="navbar-brand" href="index.html" ></a>
+      <a href="index.html">
+        <img src="resources/logoImage.jpg" width="120" height="120" alt="Logo" id="logo-img"/>
+      </a>
+      <!-- Responsive Button for the smaller menu -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link" href="1rules&equipment.html">Rules & Equipment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="1topcourses.html">Top Courses</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              4 Major Tournaments
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="1TheMasters.html">The Masters</a>
+              <a class="dropdown-item" href="1pgachamp.html">PGA Championship</a>
+              <a class="dropdown-item" href="1usopen.html">US Open</a>
+              <a class="dropdown-item" href="1theopen.html">The Open</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="1evolution.html">Evolution of the Game</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="1contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      <!-- Page Content -->
+      <div class="containerhome">
+        <div>
+          <h2>Rules of the Game</h2>
+          <p>Golf is played by a solid set of rules.</p>
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti venenatis erat sit lacus potenti lacinia. Conubia dignissim mus cursus nulla taciti integer purus mattis. Sit condimentum est aliquet elementum; ligula auctor aenean. Ut et auctor vel iaculis tincidunt ipsum eget fermentum aliquam. Praesent blandit praesent bibendum rhoncus; nisl leo. Sociosqu posuere erat curae tincidunt aliquam turpis turpis. Netus parturient etiam hac fermentum consequat placerat hac magna. Pharetra imperdiet felis lobortis posuere habitant mattis sem. Porta nam porttitor orci sapien, finibus nascetur tristique at.</p>
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti venenatis erat sit lacus potenti lacinia. Conubia dignissim mus cursus nulla taciti integer purus mattis. Sit condimentum est aliquet elementum; ligula auctor aenean. Ut et auctor vel iaculis tincidunt ipsum eget fermentum aliquam. Praesent blandit praesent bibendum rhoncus; nisl leo. Sociosqu posuere erat curae tincidunt aliquam turpis turpis. Netus parturient etiam hac fermentum consequat placerat hac magna. Pharetra imperdiet felis lobortis posuere habitant mattis sem. Porta nam porttitor orci sapien, finibus nascetur tristique at.</p>
+        </div>
+        </div>
+      <div class="containerhome">
+        <div>
+          <h2>Recommended Equipment</h2>
+          <p>Most players have a starter set that includes the following clubs:</p>
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti venenatis erat sit lacus potenti lacinia. Conubia dignissim mus cursus nulla taciti integer purus mattis. Sit condimentum est aliquet elementum; ligula auctor aenean. Ut et auctor vel iaculis tincidunt ipsum eget fermentum aliquam. Praesent blandit praesent bibendum rhoncus; nisl leo. Sociosqu posuere erat curae tincidunt aliquam turpis turpis. Netus parturient etiam hac fermentum consequat placerat hac magna. Pharetra imperdiet felis lobortis posuere habitant mattis sem. Porta nam porttitor orci sapien, finibus nascetur tristique at.</p>
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti venenatis erat sit lacus potenti lacinia. Conubia dignissim mus cursus nulla taciti integer purus mattis. Sit condimentum est aliquet elementum; ligula auctor aenean. Ut et auctor vel iaculis tincidunt ipsum eget fermentum aliquam. Praesent blandit praesent bibendum rhoncus; nisl leo. Sociosqu posuere erat curae tincidunt aliquam turpis turpis. Netus parturient etiam hac fermentum consequat placerat hac magna. Pharetra imperdiet felis lobortis posuere habitant mattis sem. Porta nam porttitor orci sapien, finibus nascetur tristique at.</p>
+          </div>
+</div>
+</div>
+</div>
+<footer class="footer page-footer font-small ">
+  <div class="container">
+    <div class="row">
+      <span class="text-muted">&copy; Charles Rogers, 2024 | Terms of Service | Privacy Statement </span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Bootstrap Page</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<!-- Header for Each Page -->
+<div class="container-fluid" id="container">
+  <div class="row">
+    <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+      <!-- Logo for Brand -->
+      <a class="navbar-brand" href="index.html" ></a>
+      <a href="index.html">
+        <img src="resources/logoImage.jpg" width="120" height="120" alt="Logo" id="logo-img"/>
+      </a>
+      <!-- Responsive Button for the smaller menu -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link" href="1rules&equipment.html">Rules & Equipment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="1topcourses.html">Top Courses</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              4 Major Tournaments
+            </a>
+            <div class="dropdown-menu" id="dropdown-items">
+              <a class="dropdown-item" href="1TheMasters.html">The Masters</a>
+              <a class="dropdown-item" href="#">PGA Championship</a>
+              <a class="dropdown-item" href="#">US Open</a>
+              <a class="dropdown-item" href="#">The Open</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="1evolution.html">Evolution of the Game</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="1contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <!--
+          <li class="nav-item">
+              <input type="image" src ="resources/magnifying-glass-icon-vector-illustration.jpg" width="25" height="25" id="search-image" alt="Search">
+          </li>
+          -->
+        </ul>
+      </div>
+    </nav>
+    <div class="containerhome">
+      <div h1theopen >
+        <h1>About Us</h1>
+        <p>My name is Charles Rogers, and this is my first ever website.</p>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ut dolor posuere placerat a leo suspendisse. Laoreet viverra cursus congue dolor urna a. Dignissim vulputate magna venenatis nam sit ad phasellus penatibus. Duis quisque libero aenean donec justo condimentum. Primis cras ipsum sem vel integer suscipit lobortis fames. Donec nullam dictum massa dictum mauris rutrum sagittis. Nascetur et sem ligula cubilia laoreet convallis libero primis. Iaculis consequat phasellus amet enim potenti ad.
+
+          Feugiat per pharetra bibendum erat phasellus. Et potenti quis suspendisse taciti dapibus nullam. Fermentum auctor nisl vulputate porta in tellus amet ac. Leo taciti felis eleifend at justo egestas. Blandit est nisl aliquet hendrerit platea cursus curabitur rutrum. Lobortis magnis facilisis penatibus vel parturient nullam. Diam lacinia suspendisse potenti odio in. Laoreet dis litora mauris venenatis nulla maximus.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <span class="text-muted">&copy; Charles Rogers, 2024 |  Terms of Service  |  Privacy Statement </span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

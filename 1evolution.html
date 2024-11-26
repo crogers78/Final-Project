@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Bootstrap Page</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header for Each Page -->
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+      <!-- Logo for Brand -->
+      <a class="navbar-brand" href="index.html" ></a>
+      <a href="index.html">
+        <img src="resources/logoImage.jpg" width="120" height="120" alt="Logo" id="logo-img"/>
+      </a>
+      <!-- Responsive Button for the smaller menu -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link" href="1rules&equipment.html">Rules & Equipment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="1topcourses.html">Top Courses</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              4 Major Tournaments
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="1TheMasters.html">The Masters</a>
+              <a class="dropdown-item" href="#">PGA Championship</a>
+              <a class="dropdown-item" href="#">US Open</a>
+              <a class="dropdown-item" href="#">The Open</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="1evolution.html">Evolution of the Game</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="1contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="containerhome">
+      <div>
+        <h1>Evolution of the Game</h1>
+        <p>Over the years, the game of golf has experienced extraordinary changes. </p>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Curabitur pretium risus condimentum adipiscing magna ante posuere. Nisi vestibulum tincidunt eros cursus semper. Parturient viverra nascetur vitae varius augue ex luctus vel non. Sapien per neque euismod tortor duis ornare purus donec. Iaculis felis conubia etiam nibh consequat efficitur. Sollicitudin sociosqu aliquet taciti eu varius tristique ut amet augue. Maximus fusce lacus varius justo iaculis adipiscing. Euismod hendrerit lobortis quam ad convallis tempor posuere enim sociosqu. Mauris facilisis conubia sagittis, diam morbi scelerisque platea.
+        <p>Imperdiet sapien vulputate congue augue platea senectus parturient. Posuere eget eleifend torquent lorem dapibus; commodo vulputate auctor. Facilisis odio odio sociosqu pellentesque arcu potenti; purus aliquet. Duis mollis molestie tellus curabitur scelerisque pellentesque diam vehicula. Habitant eu adipiscing sed leo hendrerit suspendisse ultrices id. Habitasse purus ultricies sollicitudin nulla dictum. Adipiscing netus aptent sodales; quisque per quisque at ullamcorper. Habitant ipsum bibendum suscipit id, nibh nec.</p>
+        <p>Ac nec vehicula nam lacus facilisi cubilia varius aptent eleifend. Dis justo congue platea neque, pharetra justo torquent. Mauris suscipit non libero curae sociosqu hendrerit nisi ridiculus consectetur. Ut lectus condimentum fames mus habitant eget. Maximus mattis diam imperdiet consequat integer massa. Sollicitudin lacus luctus vivamus iaculis, diam taciti accumsan hac. Gravida tempus tincidunt at; sociosqu in at egestas. Dignissim feugiat natoque purus quam purus.</p>
+      </div>
+  </div>
+</div>
+</div>
+
+<footer class="footer page-footer font-small ">
+  <div class="container">
+    <div class="row">
+      <span class="text-muted">&copy; Charles Rogers, 2024 |  Terms of Service  |  Privacy Statement </span>
+    </div>
+  </div>
+</footer>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

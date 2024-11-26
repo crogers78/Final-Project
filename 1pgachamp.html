@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Header for Each Page -->
+<div class="container-fluid" id="container">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Logo for Brand -->
+            <a class="navbar-brand" href="index.html" ></a>
+            <a href="index.html">
+                <img src="resources/logoImage.jpg" width="120" height="120" alt="Logo" id="logo-img"/>
+            </a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="1rules&equipment.html">Rules & Equipment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="1topcourses.html">Top Courses</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            4 Major Tournaments
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="1TheMasters.html">The Masters</a>
+                            <a class="dropdown-item" href="#">PGA Championship</a>
+                            <a class="dropdown-item" href="1usopen.html">US Open</a>
+                            <a class="dropdown-item" href="1theopen.html">The Open</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="1evolution.html">Evolution of the Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="1contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content -->
+        <div class="containerhome">
+            <div id="h1pga">
+                <h1>The PGA Championship</h1>
+                <p id="par1pga">The PGA Championshp is an extremely popular tournament today.</p>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Magna non montes etiam natoque metus adipiscing. Adipiscing inceptos rhoncus placerat eu posuere nibh quam tincidunt morbi. Vehicula euismod donec penatibus sapien facilisis. Porta malesuada tempus ultrices pharetra in platea phasellus mattis. Dignissim etiam etiam justo lobortis nisi tellus. Amet sollicitudin dolor efficitur class condimentum class. Sodales erat praesent tristique imperdiet bibendum curae. Quisque blandit congue finibus lectus; faucibus parturient. Suspendisse mattis blandit litora risus ornare nascetur consectetur.</p>
+                <p>Platea neque maximus pulvinar adipiscing neque nibh facilisis quis. Metus magnis in nulla eros fames ridiculus. Facilisi inceptos dolor fermentum per ultrices tristique curae litora. Cras dui accumsan sollicitudin pretium morbi libero. Curae sodales torquent netus potenti potenti diam iaculis. Efficitur neque dolor praesent eros ornare semper. Gravida vitae venenatis vivamus integer; nostra dolor elit.</p>
+                <p>Scelerisque ultricies penatibus tristique taciti nascetur massa vel pulvinar libero. Accumsan facilisi habitant placerat odio semper mauris aliquam gravida velit. Natoque vulputate ligula euismod in laoreet sollicitudin facilisis tempus. Eleifend habitasse nullam fringilla facilisis fermentum leo consectetur. Habitant praesent mollis nostra aliquet natoque magna malesuada euismod nisi. Nec mauris penatibus elementum massa mus aliquam? Libero taciti ultrices placerat euismod leo etiam mi. Natoque mi eu montes mauris arcu ultrices.</p>
+                <p>Laoreet potenti dis adipiscing porttitor fusce. Aptent fusce vitae conubia justo facilisi curabitur nullam efficitur. Laoreet maximus nulla egestas feugiat lacinia donec vitae. Praesent sodales condimentum viverra nunc, fermentum in. Ultrices per cursus rutrum adipiscing fringilla auctor tristique nisl. Cubilia amet erat metus fringilla elementum porta dui nulla. Felis himenaeos ligula inceptos nostra pharetra.</p>
+            </div>
+    </div>
+</div>
+
+
+</div>
+
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Charles Rogers, 2024 |  Terms of Service  |  Privacy Statement </span>
+        </div>
+    </div>
+</footer>
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
