@@ -48,7 +48,7 @@ body {
     font-weight: bold;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: white; /* Ensures the links are white */
+    color: white; 
 }
 
 .dropdown-menu {
@@ -71,10 +71,10 @@ body {
 }
 .containerhome, .containerabout {
     width: 80%;
-    padding: 10px;           /* Adds space inside the border */
+    padding: 10px;           
     margin: 20px auto;
     text-align: center;
-    border: 2px solid black; /* Adds a solid black border */
+    border: 2px solid black; 
 }
 
 /* Card Format */
@@ -100,16 +100,6 @@ body {
 .container {
     padding: 2px 16px;
 }
-
-/* Rules and Equipment */
-/* Top Courses */
-/* 4 Major Tournaments */
-
-/* Masters Page */
-/* The Open Page */
-/* The US Open Page */
-/* PGA Page */
-/*Evolution of the Game */
 
 /* Contact Page */
 #firstname, #lastname, #email {
@@ -142,7 +132,7 @@ footer, #footer-about {
     position: fixed;
 }
 .container-fluid {
-    min-height: calc(100vh - 50px); /* Ensure 50px accurately represents your header/footer height */
+    min-height: calc(100vh - 50px); 
     width: 100vw;
     flex: 1;
 }
