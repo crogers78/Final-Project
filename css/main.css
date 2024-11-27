@@ -122,15 +122,14 @@ body {
 }
 /* Footer Formatting */
 footer, #footer-about {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    padding-top: 5px;
     background-color: black;
     color: white;
     text-align: center;
     font-size: 1rem;
-    margin-top: auto;
-    bottom: 0;
-    position: fixed;
 }
 .container-fluid {
     min-height: calc(100vh - 50px); 
