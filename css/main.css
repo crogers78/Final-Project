@@ -136,3 +136,26 @@ footer, #footer-about {
     width: 100vw;
     flex: 1;
 }
+/* Carousel container */
+#carouselExampleSlidesOnly {
+  max-width: 80%; /* Set a maximum width */
+  margin: 0 auto;   /* Center the carousel */
+  border-radius: 10px; /* Add rounded corners */
+  overflow: hidden; /* Prevent overflow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Carousel images */
+.carousel-inner img {
+  object-fit: cover; /* Ensure images cover their containers */
+  height: 400px; /* Set a consistent height */
+}
+
+/* Optional: Change indicators */
+.carousel-indicators li {
+  background-color: #007bff; /* Customize the color */
+}
+
+.carousel-indicators .active {
+  background-color: #0056b3; /* Darker color for active */
+}
