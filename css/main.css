@@ -136,3 +136,35 @@ footer, #footer-about {
     width: 100vw;
     flex: 1;
 }
+/* Carousel Code for Masters Page*/
+#carouselIndicators {
+    max-width: 75%;
+    top: 2rem;
+    margin: 5% auto;
+    border: 1px solid #ddd;
+}
+.carousel-indicators li {
+    background-color: #333;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: #007bff;
+}
+.carousel-inner img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
