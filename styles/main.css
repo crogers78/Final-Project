@@ -71,6 +71,7 @@ body {
     text-align: center;
     padding-top: 40px;
     text-decoration: underline;
+    font-weight: bold;
 }
 .containerhome, .containerabout {
     background-color: white;
