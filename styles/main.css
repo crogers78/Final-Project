@@ -63,7 +63,7 @@ body {
 /* Home Page */
 #overview1 {
     text-decoration: underline;
-    margin: 0 auto;
+    width: 90%;
 }
 #h1page1 {
     white-space: nowrap;
