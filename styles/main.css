@@ -81,17 +81,16 @@ body {
     border: 2px solid black; 
 }
 .containerrules-wrapper {
-  display: flex;
-  flex-wrap: wrap; /* Allows wrapping for smaller screens */
-  gap: 20px; /* Adds space between the two containers */
-  justify-content: space-between; /* Aligns the containers with space between */
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    gap: 20px; /* Adds space between the two containers */
+    justify-content: space-between; /* Aligns the containers with space between */
+    padding: 20px;
 }
 .containerrules {    
     flex: 1 1 calc(50% - 20px);
     background-color: white;
-    width: 80%;
-    padding: 10px;           
-    margin: 20px auto;
+    padding: 20px;           
     text-align: center;
     border: 2px solid black; 
 }
